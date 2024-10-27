@@ -1,0 +1,9 @@
+<div class="face-snap-card">
+<h2>{{ title }}</h2>
+<img [src]="imageUrl" [alt]="title">
+<p>{{ description }}</p>
+<p>{{ createdAt }}</p>
+<p> 
+    <button (click)="onSnap()">{{ snapButtonText}}</button>
+    nb: {{ snaps }}</p>
+</div>
